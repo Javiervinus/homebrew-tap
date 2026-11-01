@@ -8,10 +8,13 @@ Homebrew casks for apps by [Javier Vinueza](https://github.com/Javiervinus).
 brew install --cask javiervinus/tap/paperclip-dispatch
 ```
 
-Or tap once and install by name:
+Or tap once and install by name. Since Homebrew 6.0.0, a cask from a third-party tap only loads once you
+trust it ([Tap Trust](https://docs.brew.sh/Tap-Trust)). Installing with the full name, as above, trusts it
+for you; to install by name, trust it first:
 
 ```sh
 brew tap javiervinus/tap
+brew trust --cask javiervinus/tap/paperclip-dispatch
 brew install --cask paperclip-dispatch
 ```
 
