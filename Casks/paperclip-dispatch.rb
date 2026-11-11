@@ -1,6 +1,6 @@
 cask "paperclip-dispatch" do
-  version "0.4.2"
-  sha256 "b3b8cab1b7a1d77a6590ea7ce918b9c89de791686a973f140e6f3538eac7268b"
+  version "0.4.3"
+  sha256 "353f62ac8deb7f7a8dedeca7ccd84abd907e0a2309790ed8af1ecfdc8d8cf705"
 
   url "https://github.com/Javiervinus/paperclip-dispatch/releases/download/v#{version}/Paperclip-Dispatch-#{version}.dmg"
   name "Paperclip Dispatch"
